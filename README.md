@@ -1,4 +1,4 @@
-# Pan-card-detection
+# Face detection in a Pan Card
 A simple application written in python language. The code works on a user pan card image and detects the face in the card, name and date of birth.
 Overall, the code performs the following tasks:
 1) Detects and warps the ID card
