@@ -1,14 +1,13 @@
-# pan-card-detection
-Python code which takes an image file and detects the pan card. In the pan card, it detects the image file, name and date of birth
-The final code  does the following:
-1) detects and warps the ID card
-2) detects face in the warped image BLUE COLOR
-3) locates name (RED COLOR) and date of birth (GREEN COLOR)
+# Pan-card-detection
+A simple application written in python language. The code works on a user pan card image and detects the face in the card, name and date of birth.
+Overall, the code performs the following tasks:
+1) Detects and warps the ID card
+2) Detects face in the warped image (BLUE COLOR box)
+3) Locates name (RED COLOR box) and date of birth (GREEN COLOR box)
 
-STEPS TO DO
+Steps For Running the Code
 
-1) change path to haarcascade on line 76.      
-2) change path to image file on line 121.     
-3) dependencies: numpy, opencv        
-4) created in python 2.7.5      
-5) only image files are read
+1) Change machine specific path to haarcascade on line 76.      
+2) change machine specific path to image file on line 121.     
+3) Dependencies: numpy, opencv        
+4) Created in python 2.7.5      
